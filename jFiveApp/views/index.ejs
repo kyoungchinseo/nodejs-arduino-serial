@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    <form action="/1" method="post">
+       <button type="submit">On/Off LED 1</button>
+    </form>
+    <form action="/2" method="post">
+       <button type="submit">On/Off LED 2</button>
+    </form>
+    <br>
+    <p><%= msg1 %></p>
+    <p><%= msg2 %></p>
+  </body>
+</html>
